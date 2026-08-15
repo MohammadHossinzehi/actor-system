@@ -1,0 +1,32 @@
+{
+  "name": "actor-system",
+  "version": "1.0.0",
+  "description": "Production-grade event-driven actor system with backpressure, supervision, and async message passing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts",
+    "benchmark": "ts-node src/benchmark.ts"
+  },
+  "keywords": [
+    "actor",
+    "message-passing",
+    "concurrency",
+    "event-driven",
+    "backpressure",
+    "supervision"
+  ],
+  "author": "Mohammad Hossinzehi",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-node": "^10.9.0",
+    "ts-jest": "^29.0.0"
+  }
+}
